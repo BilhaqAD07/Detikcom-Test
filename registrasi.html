@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETIKFINANCE | Registrasi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        :root{
+            --headings-font-family: 'Monstserrat', sans-serif;
+            --bs-body-font-family: 'Monstserrat', sans-serif;
+        }
+
+        .hero {
+            background: url(./assets/bg-header-regis.png) no-repeat center center/cover;
+            min-height: 40vh;
+        }
+    </style>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #007CBD;">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-5" href="#">
+                    <img src="./assets/LOGO DBPC2023.svg" class="object-fit-cover" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item">
+                    <a class="nav-link mx-3" href="#"><strong>About</strong></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link mx-3" href="#"><strong>Mechanism</strong></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link mx-3" href="#"><strong>Latest Update</strong></a>
+                    </li>    
+                    <li class="nav-item">
+                    <a class="nav-link mx-3  rounded-5 bg-white text-primary p-2 px-4" href="#"><strong>Register</strong></a>
+                    </li>    
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero d-flex flex-column justify-content-center align-items-center">
+            <h2 class="text-white"><strong>Registrasi</strong></h2>
+        </div>
+    </header>
+    <main style="background-color: #F4FBFF;">
+        <section class="container">
+            <form style="background-color: #FFF; "class="p-5">
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form6Example3" class="form-control border-0 p-3" style="background-color:#F8F8F8;"
+                    placeholder="Nama Perusahaan*"
+                    required />
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="form6Example3" class="form-control border-0 p-3" style="background-color:#F8F8F8;"
+                    placeholder="Email*"
+                    required />
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="form6Example3" class="form-control border-0 p-3" style="background-color:#F8F8F8;"
+                    placeholder="Nomor Telepon*"
+                    required />
+                    <label class="form-label pt-2" style="color: gray;" for="form6Example2">Isi hanya angka</label>
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control border-0 p-3" style="background-color:#F8F8F8;" id="form6Example7" rows="4"
+                    placeholder="Tentang Perusahaan {Max. 200 character}*"></textarea>
+                  </div>
+                  
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="file" id="form6Example1" class="form-control border-0 p-3" style="background-color:#F8F8F8;" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form6Example2" class="form-control border-0 p-3" style="background-color:#F8F8F8;" />
+                      <label class="form-label" for="form6Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+              
+                
+              
+                <!-- Text input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form6Example4" class="form-control border-0 p-3" style="background-color:#F8F8F8;" />
+                  <label class="form-label" for="form6Example4">Address</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form6Example5" class="form-control border-0 p-3" style="background-color:#F8F8F8;" />
+                  <label class="form-label" for="form6Example5">Email</label>
+                </div>
+              
+                <!-- Number input -->
+                <div class="form-outline mb-4">
+                  <input type="number" id="form6Example6" class="form-control border-0 p-3" style="background-color:#F8F8F8;" />
+                  <label class="form-label" for="form6Example6">Phone</label>
+                </div>
+              
+                
+              
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+                  <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+              </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</body>
+</html>
