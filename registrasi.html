@@ -26,6 +26,16 @@
           content: '*';
           color: red;
         }
+
+        .register {
+          background-color: #FFF;
+          color: #007CBD;
+        }
+
+        .register:hover {
+          background-color: #007CBD;
+          color: #FFF;
+        }
     </style>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #007CBD;">
@@ -48,7 +58,7 @@
                     <a class="nav-link mx-3" href="#"><strong>Latest Update</strong></a>
                     </li>    
                     <li class="nav-item">
-                    <a class="nav-link mx-3  rounded-5 bg-white text-primary p-2 px-4" href="#"><strong>Register</strong></a>
+                    <a class="nav-link register mx-3 rounded-5 p-2 px-4" href="#"><strong>Register</strong></a>
                     </li>    
                 </ul>
                 </div>
@@ -63,19 +73,19 @@
             <form style="background-color: #FFF; "class="p-5 rounded-4">
                 <!-- Text input -->
                 <div class="form-floating mb-4">
-                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3" style="background-color:#F8F8F8;"
+                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3 pt-5" style="background-color:#F8F8F8;"
                     placeholder="Nama Perusahaan"
                     required />
                     <label for="name" class="required">Nama Perusahaan</label>
                 </div>
                 <div class="form-floating mb-4">
-                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3" style="background-color:#F8F8F8;"
+                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3 pt-5" style="background-color:#F8F8F8;"
                     placeholder="Email"
                     required />
                     <label for="email" class="required">Email</label>
                 </div>
                 <div class="form-floating mb-1">
-                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3" style="background-color:#F8F8F8;"
+                    <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3 pt-5" style="background-color:#F8F8F8;"
                     placeholder="Nomor Telepon"
                     required />
                     <label for="nohp" class="required">Nomor Telepon</label>
@@ -84,7 +94,7 @@
 
                 <!-- Message input -->
                 <div class="form-floating mb-4">
-                    <textarea class="form-control border-0 rounded-4 p-3" style="background-color:#F8F8F8;" id="form6Example7" rows="4"
+                    <textarea class="form-control border-0 rounded-4 p-3 pt-5" style="background-color:#F8F8F8;" id="form6Example7" rows="4"
                     placeholder="Tentang Perusahaan {Max. 200 character}"></textarea>
                     <label for="tentang" class="required">Tentang Perusahaan {Max. 200 character}</label>
                   </div>
@@ -130,7 +140,7 @@
               
                 <!-- Email input -->
                 <div class="form-floating mb-1">
-                  <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3" style="background-color:#F8F8F8;"
+                  <input type="text" id="form6Example3" class="form-control border-0 rounded-4 p-3 pt-5" style="background-color:#F8F8F8;"
                   placeholder="Link Website"
                   required />
                   <label for="Website" class="required">Link Website</label>
@@ -147,7 +157,9 @@
               
                 <!-- Submit button -->
                 <div class="form-outline d-flex justify-content-center">
-                  <button type="submit" class="btn btn-primary px-5 p-3 mb-4" style="font-weight: bold;">Register</button>
+                  <a href="./welcome.html">
+                    <button type="submit" class="btn btn-primary px-5 p-3 mb-4" style="font-weight: bold;">Register</button>
+                  </a>
                 </div>
               </form>
         </article>
